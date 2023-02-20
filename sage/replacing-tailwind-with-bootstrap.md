@@ -48,6 +48,10 @@ Open `bud.config.js` from your theme and remove the following lines:
 -      .useTailwindFontSize()
 ```
 
+### 5. Remove the Tailwind stylelint config from .stylelintrc
+
+Open .stylelintrc and remove "@roots/bud-tailwindcss/stylelint-config"
+
 ## Adding Bootstrap
 
 ### 1. Install native support for Sass
@@ -95,3 +99,7 @@ Open your theme's newly renamed `resources/styles/app.scss` and add the followin
 ```
 
 **Note:** You may wish to import only the parts of Bootstrap you plan to use in your theme. You can learn more about importing just the parts you need [here](https://getbootstrap.com/docs/5.1/customize/sass/#importing).
+
+### 5. Add the Bootstrap stylelint config from .stylelintrc
+
+Open .stylelintrc and add "@roots/bud-sass/stylelint-config""
